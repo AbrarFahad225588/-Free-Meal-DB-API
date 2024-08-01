@@ -1,0 +1,60 @@
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 30px;
+    justify-content: center;
+} 
+
+.Food-card-name{
+   
+    text-align: center;
+    color: #ff01dd;
+    margin-top: 40px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+    }
+    
+    .Food-card-image{
+        display: flex;
+        height: 150px;
+        justify-content: space-around;
+        width: 100%;
+        justify-content: center;
+        border-radius: 10px;
+    
+    } 
+    .Food-card {
+        box-shadow:  11px 10px 10px rgb(0, 0, 44);
+        height: 250px;
+        border-radius: 10px; 
+        width: 200px;
+        text-align: center;
+    }
+
+    
+    .Food-card-img-recipy{
+        display: flex;
+        height: 150px;
+        justify-content: space-around;
+        width: 100%;
+        justify-content: center;
+    
+    }
+
+    .name-click:hover
+    {
+        cursor: pointer;
+
+   color: aqua;
+    }
+
+    .Food-cards-recipy{
+        width: 500px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.529);
+        padding: 10px;
+    
+    }
